@@ -1,0 +1,11 @@
+{
+  "name": "bibliocom",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "pacotes/*"
+  ],
+  "scripts": {
+    "dev:api": "npm run -w backend start:dev"
+  }
+}
